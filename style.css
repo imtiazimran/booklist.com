@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(120deg, #f6d365,#fda085);
+    color: #fff;
+    min-height: 100vh;
+    font-size: 1.5rem;
+}
+
+input#year, input#title, input#author {
+    width: 100%;
+}
+thead{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+tr{
+    flex-basis: 33%;
+    text-align: center;
+    justify-content: space-between;
+}
+th{
+    flex-basis: 20%;
+}
+label{
+    color: #000;
+}
+
+.table thead tr th{
+    border: none;
+}
